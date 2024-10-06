@@ -1,0 +1,46 @@
+# Python/Django
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+db.sqlite3
+.env
+venv/
+*.egg-info/
+.eggs/
+*.log
+*.pot
+*.py[cod]
+*.so
+*.DS_Store
+
+# React
+node_modules/
+build/
+*.log
+*.env
+*.cache
+*.DS_Store
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.pid
+*.gz
+
+# Coverage reports
+.coverage
+coverage.xml
+nosetests.xml
+test_coverage/
