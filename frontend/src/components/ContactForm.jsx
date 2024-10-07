@@ -8,6 +8,9 @@ const ContactForm = ({ onClose }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     alert(`Thank you for contacting us, we will reach you out soon`);
+    setName(''); // Reset name state to empty
+    setPhone(''); // Reset phone state to empty
+    setEmail(''); // Reset email state to empty
     onClose(); // Close form after submission
   };
 

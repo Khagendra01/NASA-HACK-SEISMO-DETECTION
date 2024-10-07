@@ -9,6 +9,7 @@ import Navbar from './components/Navbar';
 import ChatBox from './components/ChatBox';
 import ContactFormPage from './components/ContactFormPage';
 import HowWeBuiltPage from './components/HowWeBuiltPage'; 
+import PredictData from './components/PredictData';
 
 
 
@@ -259,6 +260,8 @@ const MainPage = () => {
   );
 };
 
+
+
 const App = () => {
   return (
     <Router>
@@ -268,6 +271,7 @@ const App = () => {
           <Route path="/" element={<MainPage />} />
           <Route path="/contact" element={<ContactFormPage />} />
           <Route path="/how-we-built" element={<HowWeBuiltPage />} />
+          <Route path="/predict" element={<PredictData />} />
         </Routes>
       </div>
     </Router>

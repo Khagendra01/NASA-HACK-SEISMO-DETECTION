@@ -22,6 +22,12 @@ const Navbar = () => {
             What We Built
           </Link>
           <Link
+            to="/predict"
+            className="bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition duration-200 shadow-md"
+          >
+            Predict Data
+          </Link>
+          <Link
             to="/contact"
             className="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition duration-200 shadow-md"
           >
